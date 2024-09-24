@@ -1,0 +1,13 @@
+# Ask the user for the price of a child meal and an adult meal, store as floats
+child_meal_price = float(input("Enter the price of a child meal: $"))
+adult_meal_price = float(input("Enter the price of an adult meal: $"))
+
+# Ask the user for the number of adults and children, store as integers
+num_children = int(input("Enter the number of children: "))
+num_adults = int(input("Enter the number of adults: "))
+
+# Compute the subtotal
+subtotal = (child_meal_price * num_children) + (adult_meal_price * num_adults)
+
+# Display the subtotal
+print(f"The subtotal is: ${subtotal}")
