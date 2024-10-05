@@ -102,7 +102,17 @@ footer {
   margin: 0 15px;
 }
 
-.sociallinks img {
+
+/* Social Links Container */
+nav.sociallinks {
+  display: flex; /* Use flexbox */
+  justify-content: flex-end; /* Aligns the links to the left */
+  gap: 10px; /* Adds spacing between icons */
+  padding-left: 20px; /* Adds some padding to the left */
+}
+
+/* Social media icons */
+nav.sociallinks a img {
   width: 30px;
   height: 30px;
 }
