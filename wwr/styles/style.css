@@ -116,3 +116,63 @@ nav.sociallinks a img {
   width: 30px;
   height: 30px;
 }
+
+/* Adventure Section */
+.adventure {
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.adventure h2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.adventure-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.adventure-grid figure {
+  text-align: center;
+}
+
+.adventure-grid img {
+  width: 150px;
+  height: auto;
+}
+
+.adventure-grid figcaption {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+}
+
+/* History Section */
+.history {
+  padding: 20px;
+  background-color: var(--light-gray);
+}
+
+.history h2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.history-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-content img {
+  width: 200px;
+  height: auto;
+  margin: 0 20px;
+}
+
+.history-content p {
+  flex: 1;
+  font-family: 'Roboto', sans-serif;
+}
